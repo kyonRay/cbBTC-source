@@ -1,7 +1,14 @@
 {
   "name": "hardhat-project",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0"
+  },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
-    "hardhat": "^2.24.2"
+    "hardhat": "^2.24.2",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "minimist": "^1.2.8",
+    "typescript": "^5.7.3",
+    "dotenv": "^16.4.5"
   }
 }
